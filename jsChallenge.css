@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+.game-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #f4f4f4;
+    border-radius: 0.5vw;
+    padding: 2vh;
+    height: 50vh;
+}
+.game-heading {
+    text-align: center;
+}
+.guess-input {
+    padding-left: 1.5vw;
+}
+#submit {
+    cursor: pointer;
+}
+#answer {
+    text-align: center;
+    color: white;
+    padding: 1vh;
+}
+#start {
+    background-color: rgba(255, 0, 0, 0.733);
+    color: white;
+    padding: 1vh;
+    border: none;
+    border-radius: 0.5vh;
+    cursor: pointer;
+    margin-left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0.5vh 0.5vh 1vh rgba(255, 0, 0, 0.733);
+}
+#start:hover {
+    background-color: red;
+}
+.game-heading {
+    color: red;
+}
+#intro {
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+}
+#lastButton {
+    background-color: rgba(128, 0, 128, 0.678);
+    color: white;
+    border: none;
+    border-radius: 1vh;
+    padding: 1vh;
+    margin-left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+#lastButton:hover {
+    background-color: purple;
+}
